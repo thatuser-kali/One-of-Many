@@ -1,0 +1,99 @@
+h1 {
+    border-bottom-color: darkgray;
+    border-bottom-style: ridge;
+    border-bottom-width: thin;
+}
+
+.education{
+    margin-bottom:40px;
+    padding-bottom: 66.5px;
+    position: relative;
+}
+
+img{
+    width: 90px;
+    height: 100px;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.ed1{
+    font-style: italic;
+    text-align: right;
+    padding-left: 90px;
+    float: left;
+    position: absolute;
+}
+
+.ed2{
+    float: right;
+    width: 80%;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: black;
+}
+
+.skills{
+    margin-bottom: 10px;
+    padding-bottom: 220px;
+}
+
+.sk1{
+    font-style: italic;
+    text-align: right;
+    padding-left: 90px;
+    float: left;
+    position:relative;
+}
+
+.sk2{
+    float: right;
+    width: 80%;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: black;
+}
+
+.experience{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.exp1{
+    font-style: italic;
+    text-align: right;
+    padding-left: 90px;
+    float: left;
+    position:relative;
+}
+
+.exp2{
+    float: right;
+    width: 80%;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: black;
+}
+
+.experience,
+.education,
+.skills{
+    font-family: cursive;
+    font-style: italic;
+}
+    
+#right{
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 50px;
+    width: auto;
+}
+#picture{
+    margin-top: 80px;
+    padding-left: 800px;
+    float: right;
+    object-position: center;
+    position: absolute;
+}
